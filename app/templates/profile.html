@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% block main %}
+<div class="head">
+    <img src= "{{url_for('static', filename= 'pp.jpg')}}">
+    <h3> Orlando Drummonds</h1>
+    <h5>@OrlandoDeveloper</h2>
+    <p>Kingston, Jamaica</p>
+    <p>Joined {{date}}</p>
+</div>
+
+<div class="main">
+    <p>Aspiring fullstack Web developer who enjoys watching football. Contact me if interested in collaberating on a project.</p>
+    <br>
+    <table align="center">
+        <tr>
+            <th>8</th>
+            <th>20</th>
+            <th>800</th>
+        </tr>
+        <tr>
+            <td>Posts</td>
+            <td>Following</td>
+            <td>Follwers</td>
+        </tr>
+    </table>
+    <button type="button", class="button">Follow</button>
+</div>
+
+
+{% endblock %}
